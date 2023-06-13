@@ -14,6 +14,6 @@ jobs:
       alphas: '["QWERTY"]'
       board: '["nice_nano_v2"]'
       branches: '["default"]'
-      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y \nCONFIG_WS2812_STRIP=y /n CONFIG_ZMK_SLEEP=y"]'
+      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y \nCONFIG_WS2812_STRIP=y /n CONFIG_ZMK_SLEEP=y /n CONFIG_ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE=y /n CONFIG_ZMK_RGB_UNDERGLOW_EFF_START=2"]'
       nav: '["vi"]'
       shield: '["corne_left","corne_right"]'
