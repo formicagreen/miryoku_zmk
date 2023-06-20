@@ -59,9 +59,10 @@ MIRYOKU_X(NUMPAD,    "NumPad")
 #define U_NUMPAD 10
 
 
-#define MIRYOKU_ALTERNATIVES_NUMPAD \
+#define MIRYOKU_LAYER_NUMPAD \
 &kp LBKT,          &kp KP_N7,            &kp KP_N8,            &kp KP_N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp SEMI,          &kp KP_N4,            &kp KP_N5,            &kp KP_N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp GRAVE,         &kp KP_N1,            &kp KP_N2,            &kp KP_N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,                 &kp DOT,              &kp KP_N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
- 
+
+#define MIRYOKU_LAYERMAPPING_NUMPAD MIRYOKU_MAPPING
