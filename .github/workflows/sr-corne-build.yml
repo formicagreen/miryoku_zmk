@@ -11,7 +11,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      #alphas: '["QWERTY"]'
+      alphas: '["QWERTY"]'
       board: '["nice_nano_v2"]'
       branches: '["default"]'
       kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y \nCONFIG_WS2812_STRIP=y /n CONFIG_ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE=y"]'
